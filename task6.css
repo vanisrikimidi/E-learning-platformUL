@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.course-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 0 5px gray;
+  border-radius: 8px;
+  width: 280px;
+}
+
+.progress-card {
+background: white;
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px gray;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-bar div {
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
